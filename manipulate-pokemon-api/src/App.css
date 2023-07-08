@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/*main*/
+h1 {
+  text-align: center;
+  color:  #FFDE00;
+  font-size: 38pt;
+  text-shadow: 3px 3px #3B4CCA;
+  font-family: 'Pokemon Solid', sans-serif;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+
+h2 {
+  color:#3B4CCA;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pokemon-container {
+background-color:#FFDE00;
+padding: 40px;
+max-width: 550px;
+border-radius: 15px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 40px;
+
+}
+
