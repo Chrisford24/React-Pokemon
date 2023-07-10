@@ -42,7 +42,7 @@ function App() {
             {pokemonData.results.map((pokemon) => (
               <div key={pokemon.name}>
                 <h2>{pokemon.name.toUpperCase()}</h2>
-                <img src={pokemon.sprite} alt="Pokemon Image" />
+                {/* <img src={pokemon.sprites.front_default} alt={pokemon.name}/> */}
               </div>
             ))}
           </div>
